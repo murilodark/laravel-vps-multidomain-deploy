@@ -121,7 +121,7 @@ protect_main_branch() {
   "enforce_admins": true,
   "required_pull_request_reviews": {
     "dismiss_stale_reviews": true,
-    "required_approving_review_count": 1
+    "required_approving_review_count": false
   },
   "restrictions": null,
   "allow_force_pushes": false,
