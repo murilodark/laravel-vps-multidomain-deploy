@@ -93,7 +93,6 @@ set -euo pipefail
 OWNER="murilodark"
 
 REPOS=(
-  "laravel-vps-multidomain-deploy"
   "git-public-api"
   "git-public-front"
 )
