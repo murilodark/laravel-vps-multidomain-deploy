@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./docs/logo-16x9.jpg" width="220" alt="Laravel VPS Multidomain Deploy" />
+</p>
+
 # Laravel VPS Multidomain Deploy
 
 Production-ready Laravel deployment architecture using Docker, Traefik, automatic SSL, multi-domain VPS setup and CI/CD with GitHub Actions.
