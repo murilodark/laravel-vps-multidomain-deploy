@@ -93,7 +93,6 @@ set -euo pipefail
 OWNER="murilodark"
 
 REPOS=(
-  "laravel-vps-multidomain-deploy"
   "git-public-api"
   "git-public-front"
 )
@@ -118,9 +117,9 @@ protect_main_branch() {
     --input - <<EOF
 {
   "required_status_checks": null,
-  "enforce_admins": false,
+  "enforce_admins": true,
   "required_pull_request_reviews": {
-    "dismiss_stale_reviews": false,
+    "dismiss_stale_reviews": true,
     "required_approving_review_count": false
   },
   "restrictions": null,
